@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .lato-bold {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .lato-regular-italic {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+header{
+  height: 120vh;
+  background-image: linear-gradient(to top, rgba(250, 208, 196, 0.585) 0%, rgba(255, 209, 255, 0.558) 100%), url(../img/machalamid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.head{
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.titulo{
+  font-size: 65px;
+  margin-bottom: 15px;
+  margin-top: 150px;
+}
+
+.subtitulo{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 1000;
+  color: #2b1a53;
+  margin-bottom: 15px;
+}
+
+.subtitulo-head{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.copy{
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+
+.contenedor-cualidades{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.contenedor-cualidades img{
+  width: 40%;
+}
+
+.checklist-cualidades{
+  width: 45%;
+}
+
+.cualidades{
+  margin-bottom: 10px;
+}
+
+.n-cual{
+  margin-bottom: 7px;
+  color: #58196a;
+}
+
+.numer{
+  display: inline-block;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 700;
+  line-height: 30px;
+  margin-right: 5px;
+
+}
+
+.gallery{
+  background-color: #f2f2f2;
+}
+
+.contenedor-galeria{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img-galeria{
+  width: 20%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.hobb{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cont-hobb{
+  width: 40%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cont-hobb img{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.n-hobb{
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 1000;
+}
+
+
